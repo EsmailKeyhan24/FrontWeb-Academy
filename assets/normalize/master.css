@@ -1,0 +1,35 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header, nav, section, div, footer, figure, ul, figcaption, article, aside {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: YekanBakh-Bold;
+  src: url(../fonts/YekanBakh-Bold.ttf);
+}
+a, h1, h2, h3, h4, h5, h6 {
+  font-family: YekanBakh-Bold;
+}/*# sourceMappingURL=master.css.map */
